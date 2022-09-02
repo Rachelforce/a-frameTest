@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <!-- A-Frame standard library if needed -->
+    <script src="https://aframe.io/releases/latest/aframe.js"></script>
+
+    <!-- Component (includes A-Frame core) -->
+    <script src="aframe-no-click-look-controls.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+<xrextras-resource id="360" src="PanoramaCigarLoungeF2.jpg"> </xrextras-resource>
+       <a-sky src="#360"></a-sky>
+      <a-entity camera no-click-look-controls="[options]"></a-entity>
+    </a-scene>
+  </body>
+</html>
